@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700|Work+Sans:300,400,500,600,700,800,900');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+header {
+    padding-top: 20px;
+    color: white;
+    position: fixed;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    padding: 0;
+    margin: 0;
+}
+
+header.header-content {
+    margin: 10px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+.left-header,
+.right-header {
+    display: flex;
+    flex-direction: row
+}
+
+.left-header a {
+    color: rgb(190, 190, 190);
+    padding: 0 10px 0 10px;
+    transition: 0.1s
+}
+
+.left-header a:hover {
+    color: white;
+}
+
+.active,
+.logo {
+    color: white
+}
+input.search {
+    background-color: rgba(230, 230, 230, 0.582)
+}
+
+/**Tady končí header :))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))**/
+/**Tady končí header :))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))**/
+/**Tady končí header :))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))**/
+/**Tady končí header :))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))**/
+/**Tady končí header :))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))**/
+/**Tady končí header :))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))**/
+/**Tady končí header :))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))**/
+/**Tady končí header :))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))**/
+.home-slider {
+    padding-top: 21%;
+    background-image: url(../img/home_slider.jpg);
+    background-size: cover;
+    height: 950px;
+    width: 100%;
+    color: white;
+}
+
+.pokracujtenadalsi a {
+    display: flex;
+    color: rgb(190, 190, 190);
+}
+
+.pokracujtenadalsi a:hover {
+    color: white
+}
+
+.pokracujtenadalsi a img:hover {
+    filter: contrast(10000%)
+}
+
+.sipeckyyy {
+    display: flex;
+
+}
+
+img.nevim {
+    height: 15px;
+}
+
+i.fa-circle {
+    font-size: .1rem;
+
+}
