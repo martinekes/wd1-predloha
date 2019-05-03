@@ -62,10 +62,28 @@ header.header-content {
 .logo {
     color: white
 }
-input.search {
-    background-color: rgba(230, 230, 230, 0.582)
+img.mracek {
+    height: 25px
 }
-
+.search {
+    border: none;
+    outline: none;
+    height: 47px;
+    background-color: transparent;
+    text-align: center
+}
+i.fa-search {
+    font-size: 1.4rem;
+    color: 
+}
+.searchbar {
+    background-color: rgba(230, 230, 230, 0.315);
+    display: flex;
+    border-radius: 3px;
+}
+input.search {
+    color: #B2BBC1;
+}
 /**Tady končí header :))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))**/
 /**Tady končí header :))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))**/
 /**Tady končí header :))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))**/
@@ -85,9 +103,12 @@ input.search {
 
 .pokracujtenadalsi a {
     display: flex;
+    padding: 0;
     color: rgb(190, 190, 190);
 }
-
+.pokracujtenadalsi {
+    
+}
 .pokracujtenadalsi a:hover {
     color: white
 }
@@ -106,6 +127,6 @@ img.nevim {
 }
 
 i.fa-circle {
-    font-size: .1rem;
+    font-size: .08rem;
 
 }
