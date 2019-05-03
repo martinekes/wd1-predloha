@@ -63,7 +63,8 @@ header.header-content {
     color: white
 }
 img.mracek {
-    height: 25px
+    height: 15px;
+    padding-right: 24px
 }
 .search {
     border: none;
@@ -86,7 +87,7 @@ input.search {
     color: #B2BBC1;
 }
 ::placeholder { 
-    color: rgb(165, 165, 165);
+    color: rgb(189, 189, 189);
     opacity: 1;
   }
   
@@ -98,6 +99,10 @@ input.search {
 /**Tady končí header :))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))**/
 /**Tady končí header :))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))**/
 /**Tady končí header :))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))**/
+/**Tady končí header :))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))**/
+.lolhusty {
+    width: 1100px
+}
 .home-slider {
     padding-top: 21%;
     background-image: url(../img/home_slider.jpg);
@@ -111,7 +116,7 @@ input.search {
     display: flex;
     padding: 0;
     color: rgb(190, 190, 190);
-    transition: linear .1s
+    transition: linear .1s;
 }
 .pokracujtenadalsi {
     width: 200px
@@ -140,7 +145,19 @@ i.fa-circle {
     font-size:4px
 }
 p.sport {
-    background-color: #a7a7a788
+    background-color: #a7a7a788;
+    width: 90px;
+    height: 27px;
+    border-radius: 14px;
+    font-size: .9rem;
+    text-align: center;
+    padding-top: 5px;
+    transition: linear .1s;
+    margin: 0
+}
+p.sport:hover {
+    color: black;
+    background-color: rgb(236, 244, 255);
 }
 .sipeckyyy a {
     color: rgba(211, 211, 211, 0.685);
@@ -160,4 +177,11 @@ i.kolo2  {
 }
 .fa-chevron-left, .fa-chevron-right {
     padding-top: 5px
+}
+.wtf {
+    width: 402px;
+    margin: 0
+}
+p.pokracujnoobe {
+    margin: 0
 }
