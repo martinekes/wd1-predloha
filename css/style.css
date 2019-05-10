@@ -35,7 +35,9 @@ header {
 header.header-content {
     margin: 10px;
 }
-
+a.pejsek {
+    margin-top: 8px
+}
 .header-content {
     display: flex;
     flex-direction: row;
@@ -57,14 +59,20 @@ header.header-content {
 .left-header a:hover {
     color: white;
 }
-
+.logo  {
+    font-size: 25px
+}
 .active,
 .logo {
     color: white
 }
 img.mracek {
-    height: 15px;
-    padding-right: 24px
+    height: 30px;
+    padding-right: 24px;
+    padding-left: 7px
+}
+img.mracek, p.teplota {
+    padding-top: 15px
 }
 .search {
     border: none;
@@ -80,14 +88,17 @@ i.fa-search {
 .searchbar {
     background-color: rgba(230, 230, 230, 0.315);
     display: flex;
-    border-radius: 3px;
-    width: 230px
+    border-radius: 4px;
+    width: 230px;
 }
 input.search {
-    color: #B2BBC1;
+    color: rgb(197, 197, 197);
+}
+i.fa-search {
+    padding-top: 12px
 }
 ::placeholder { 
-    color: rgb(189, 189, 189);
+    color: rgb(233, 233, 233);
     opacity: 1;
   }
   
@@ -101,13 +112,12 @@ input.search {
 /**Tady končí header :))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))**/
 /**Tady končí header :))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))**/
 .lolhusty {
-    width: 1100px
+    width: 1150px
 }
 .home-slider {
-    padding-top: 21%;
+    padding-top: 17%;
     background-image: url(../img/home_slider.jpg);
     background-size: cover;
-    height: 950px;
     width: 100%;
     color: white;
 }
@@ -127,16 +137,13 @@ input.search {
 .pokracujtenadalsi a:hover {
     color: white
 }
-
-.pokracujtenadalsi a img:hover {
-    filter: contrast(10000%)
-}
-
 .sipeckyyy {
     display: flex;
 
 }
-
+h1 {
+    font-size: 40px
+}
 img.nevim {
     height: 15px;
 }
@@ -165,6 +172,14 @@ p.sport:hover {
 }
 .sipeckyyy {
     width: 100px;
+    position: relative;
+    left: 390px;
+    top: 50px
+}
+.continue {
+    position: relative;
+    right: 113px;
+    top: 10px
 }
 i.kolo2  {
     padding: 0 7px 0 7px
@@ -184,4 +199,92 @@ i.kolo2  {
 }
 p.pokracujnoobe {
     margin: 0
+}
+.podsipeckama {
+    display: flex;
+    
+}
+.podsipeckama p {
+    background-color: rgb(212, 212, 212);
+    color: black;
+    height: 70px;
+    width: 270px;
+    border-radius: 5px;
+    padding-top: 18px;
+    text-align: center;
+    margin: 10px;
+    margin-top: 230px;
+    font-size: .9rem;
+
+}
+.podsipeckama img {
+    margin-top: 89px;
+    position: relative;
+    left: 50px;
+}
+.lol p {
+    transition: linear .1s
+}
+.lol p:hover {
+    background-color: #fff;
+}
+/**** Tady končí home slider :))))))))))))*****/
+/**** Tady končí home slider :))))))))))))*****/
+/**** Tady končí home slider :))))))))))))*****/
+/**** Tady končí home slider :))))))))))))*****/
+/**** Tady končí home slider :))))))))))))*****/
+/**** Tady končí home slider :))))))))))))*****/
+/**** Tady končí home slider :))))))))))))*****/
+.celastranecka {
+    padding-top: 70px;
+    display: flex
+}
+.dontmiss-header {
+    display: flex;
+    justify-content: space-between;
+    width: 700px
+}
+.dontmiss-header a {
+    color: black
+}
+.rightdontmiss {
+    display: flex
+}
+a.more {
+    display: flex;
+    background-color: #fff;
+}
+.rightdontmiss a {
+    border-radius: 14px;
+    color: #797979;
+    margin: 0 5px 0 5px;
+    font-size: .9rem;
+    height: 25px;
+    text-align: center;
+    padding-top: 5px;
+    transition: linear .1s;
+}
+.rightdontmiss a.xd:hover {
+    background-color: rgb(241, 241, 241);
+}
+.rightdontmiss a.xd {
+    background-color: rgb(212, 212, 212);
+}
+.al {
+    width: 50px;
+}
+.st {
+    width: 130px;
+}
+.vo {
+    width: 70px;
+}
+.he {
+    width: 145px;
+}
+.tr {
+    width: 75px
+}
+.more {
+    background-color: transparent
 }
