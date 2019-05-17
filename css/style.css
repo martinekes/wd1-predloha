@@ -275,7 +275,7 @@ a.more {
     transition: linear .1s;
 }
 .rightdontmiss a.xd:hover {
-    background-color: rgb(241, 241, 241);
+    background-color: rgb(233, 233, 233);
 }
 .rightdontmiss a.xd {
     background-color: rgb(212, 212, 212);
@@ -301,11 +301,17 @@ a.more {
 .dots2 {
     color: black
 }
+.dontmissclanecky {
+    display: flex;
+    margin-top: 45px;
+}
 .levydont {
     width: 555px;
+    height: 326px;
     background-color: #fff;
     border-radius: 8px;
-    margin-top: 45px
+    margin-top: 10px;
+    transition: linear .1s
 }
 .levydont a img {
     border-top-left-radius: 8px;
@@ -313,8 +319,64 @@ a.more {
     
 }
 .levydont a h3 {
-    color: black
+    color: black;
+    padding-top: 15px;
+}
+.levydont a h3, .levydont a p {
+    padding-left: 20px;
+    padding-right: 20px
 }
 .levydont a p {
+    color: #8d8d8d;
+    padding-top: 15px
+}
+p.lulky {
+    font-size: 13px;
+    margin-top: 5px
+}
+p.lulky i.fa-circle {
+    position: relative ;
+    bottom: 3px
+}
+.levydont a {
+    transition: linear .1s
+}
+.levydont:hover {
+    background-color: rgb(245, 245, 245);
+    color: white
+}
+.levydont a:hover {
+    filter: brightness(.50);
+    color: #8d8d8d
+}
+.ughnefungujeto, .ughtakytonejde  {
+    width: 262px;
+    height: 155px ;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: linear .1s
+}
+.pravydont a {
+    line-height: 1.4;
+    transition: linear .1s
+}
+.pravydont .ughnefungujeto {
+    background-image: url(../img/post_4.jpg);
+    border-radius: 6px
+}
+.pravydont .ughnefungujeto img:hover {
+    background-image: url(../img/post_4.jpg);
+    filter: brightness(.50);
+}
+.pravydont .ughtakytonejde {
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 6px
+}
+.pravydont .ughtakytonejde a {
+    color: black
+}
+.pravydont a:hover {
     color: #8d8d8d
 }
