@@ -289,7 +289,7 @@ p.pokracujnoobe {
 .dontmiss-header {
     display: flex;
     justify-content: space-between;
-    width: 700px
+    
 }
 
 .dontmiss-header a {
@@ -298,6 +298,8 @@ p.pokracujnoobe {
 
 .leftdontmiss {
     display: flex;
+    margin-right: 100px;
+    margin-left: 0
 }
 
 .leftdontmiss .jujky {
