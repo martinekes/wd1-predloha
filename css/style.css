@@ -237,7 +237,8 @@ p.pokracujnoobe {
 /**** Tady končí home slider :))))))))))))*****/
 .celastranecka {
     padding-top: 70px;
-    display: flex
+    display: flex;
+    background-color: #1b1b1b
 }
 .dontmiss-header {
     display: flex;
@@ -246,6 +247,15 @@ p.pokracujnoobe {
 }
 .dontmiss-header a {
     color: black
+}
+.leftdontmiss {
+    display: flex;
+}
+.leftdontmiss .jujky {
+    border-bottom: solid black 2px
+}
+.leftdontmiss .jejky {
+    margin-left: 10px
 }
 .rightdontmiss {
     display: flex
@@ -290,6 +300,17 @@ a.more {
 }
 .dots2 {
     color: black
+}
+.levydont {
+    width: 555px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-top: 45px
+}
+.levydont a img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    
 }
 .levydont a h3 {
     color: black
