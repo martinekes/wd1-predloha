@@ -35,9 +35,11 @@ header {
 header.header-content {
     margin: 10px;
 }
+
 a.pejsek {
     margin-top: 8px
 }
+
 .header-content {
     display: flex;
     flex-direction: row;
@@ -59,21 +61,27 @@ a.pejsek {
 .left-header a:hover {
     color: white;
 }
-.logo  {
+
+.logo {
     font-size: 25px
 }
+
 .active,
 .logo {
     color: white
 }
+
 img.mracek {
     height: 30px;
     padding-right: 24px;
     padding-left: 7px
 }
-img.mracek, p.teplota {
+
+img.mracek,
+p.teplota {
     padding-top: 15px
 }
+
 .search {
     border: none;
     outline: none;
@@ -81,27 +89,32 @@ img.mracek, p.teplota {
     background-color: transparent;
     text-align: start
 }
+
 i.fa-search {
     font-size: 1.4rem;
     color: #bdbdbd
 }
+
 .searchbar {
     background-color: rgba(230, 230, 230, 0.315);
     display: flex;
     border-radius: 4px;
     width: 230px;
 }
+
 input.search {
     color: rgb(197, 197, 197);
 }
+
 i.fa-search {
     padding-top: 12px
 }
-::placeholder { 
+
+::placeholder {
     color: rgb(233, 233, 233);
     opacity: 1;
-  }
-  
+}
+
 /**Tady končí header :))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))**/
 /**Tady končí header :))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))**/
 /**Tady končí header :))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))**/
@@ -114,6 +127,7 @@ i.fa-search {
 .lolhusty {
     width: 1150px
 }
+
 .home-slider {
     padding-top: 17%;
     background-image: url(../img/home_slider.jpg);
@@ -128,29 +142,36 @@ i.fa-search {
     color: rgb(190, 190, 190);
     transition: linear .1s;
 }
+
 .pokracujtenadalsi {
     width: 200px
 }
+
 .pokracujtenadalsi i {
-    padding-top:2px 
+    padding-top: 2px
 }
+
 .pokracujtenadalsi a:hover {
     color: white
 }
+
 .sipeckyyy {
     display: flex;
 
 }
+
 h1 {
     font-size: 40px
 }
+
 img.nevim {
     height: 15px;
 }
 
 i.fa-circle {
-    font-size:4px
+    font-size: 4px
 }
+
 p.sport {
     background-color: #a7a7a788;
     width: 90px;
@@ -162,48 +183,61 @@ p.sport {
     transition: linear .1s;
     margin: 0
 }
+
 p.sport:hover {
     color: black;
     background-color: rgb(236, 244, 255);
 }
+
 .sipeckyyy a {
     color: rgba(211, 211, 211, 0.685);
     transition: linear .1s
 }
+
 .sipeckyyy {
     width: 100px;
     position: relative;
     left: 390px;
     top: 50px
 }
+
 .continue {
     position: relative;
     right: 113px;
     top: 10px
 }
-i.kolo2  {
+
+i.kolo2 {
     padding: 0 7px 0 7px
 }
+
 .sipeckyyy a.drsny {
     color: white
 }
+
 .sipeckyyy a:hover {
     color: white
 }
-.fa-chevron-left, .fa-chevron-right {
+
+.fa-chevron-left,
+.fa-chevron-right {
     padding-top: 5px
 }
+
 .wtf {
     width: 402px;
     margin: 0
 }
+
 p.pokracujnoobe {
     margin: 0
 }
+
 .podsipeckama {
     display: flex;
-    
+
 }
+
 .podsipeckama p {
     background-color: rgb(212, 212, 212);
     color: black;
@@ -217,17 +251,21 @@ p.pokracujnoobe {
     font-size: .9rem;
 
 }
+
 .podsipeckama img {
     margin-top: 89px;
     position: relative;
     left: 50px;
 }
+
 .lol p {
     transition: linear .1s
 }
+
 .lol p:hover {
     background-color: #fff;
 }
+
 /**** Tady končí home slider :))))))))))))*****/
 /**** Tady končí home slider :))))))))))))*****/
 /**** Tady končí home slider :))))))))))))*****/
@@ -238,32 +276,40 @@ p.pokracujnoobe {
 .celastranecka {
     padding-top: 70px;
     display: flex;
-    background-color: #1b1b1b
+    background-color: #f3f3f3
 }
+
 .dontmiss-header {
     display: flex;
     justify-content: space-between;
     width: 700px
 }
+
 .dontmiss-header a {
     color: black
 }
+
 .leftdontmiss {
     display: flex;
 }
+
 .leftdontmiss .jujky {
     border-bottom: solid black 2px
 }
+
 .leftdontmiss .jejky {
     margin-left: 10px
 }
+
 .rightdontmiss {
     display: flex
 }
+
 a.more {
     display: flex;
     background-color: #fff;
 }
+
 .rightdontmiss a {
     border-radius: 14px;
     color: #797979;
@@ -274,37 +320,48 @@ a.more {
     padding-top: 5px;
     transition: linear .1s;
 }
+
 .rightdontmiss a.xd:hover {
     background-color: rgb(233, 233, 233);
 }
+
 .rightdontmiss a.xd {
     background-color: rgb(212, 212, 212);
 }
+
 .al {
     width: 50px;
 }
+
 .st {
     width: 130px;
 }
+
 .vo {
     width: 70px;
 }
+
 .he {
     width: 145px;
 }
+
 .tr {
     width: 75px
 }
+
 .more {
     background-color: transparent
 }
+
 .dots2 {
     color: black
 }
+
 .dontmissclanecky {
     display: flex;
     margin-top: 45px;
 }
+
 .levydont {
     width: 555px;
     height: 326px;
@@ -313,70 +370,171 @@ a.more {
     margin-top: 10px;
     transition: linear .1s
 }
+
 .levydont a img {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    
+
 }
+
 .levydont a h3 {
     color: black;
     padding-top: 15px;
 }
-.levydont a h3, .levydont a p {
+
+.levydont a h3,
+.levydont a p {
     padding-left: 20px;
     padding-right: 20px
 }
+
 .levydont a p {
     color: #8d8d8d;
     padding-top: 15px
 }
+
 p.lulky {
     font-size: 13px;
     margin-top: 5px
 }
+
 p.lulky i.fa-circle {
-    position: relative ;
+    position: relative;
     bottom: 3px
 }
+
 .levydont a {
     transition: linear .1s
 }
+
 .levydont:hover {
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(238, 238, 238);
     color: white
 }
+
 .levydont a:hover {
     filter: brightness(.50);
     color: #8d8d8d
 }
-.ughnefungujeto, .ughtakytonejde  {
+
+.ughnefungujeto,
+.ughtakytonejde {
     width: 262px;
-    height: 155px ;
+    height: 155px;
     padding-top: 15px;
     padding-left: 20px;
     padding-right: 20px;
     transition: linear .1s
 }
+
 .pravydont a {
     line-height: 1.4;
     transition: linear .1s
 }
+
 .pravydont .ughnefungujeto {
     background-image: url(../img/post_4.jpg);
     border-radius: 6px
 }
+
 .pravydont .ughnefungujeto img:hover {
     background-image: url(../img/post_4.jpg);
     filter: brightness(.50);
 }
+
 .pravydont .ughtakytonejde {
     background-color: #fff;
     margin: 10px;
     border-radius: 6px
 }
+
 .pravydont .ughtakytonejde a {
     color: black
 }
+
+.levydolnidont {
+    display: flex
+}
+
 .pravydont a:hover {
     color: #8d8d8d
+}
+
+.plevydont,
+.llevydont {
+    width: 262px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: linear .1s;
+    margin-top: 10px
+}
+.llevydont {
+    margin-left: 25px
+}
+.plevydont a,
+.llevydont a {
+    transition: linear .1s
+}
+
+.plevydont a:hover,
+.llevydont a:hover {
+    filter: brightness(.50);
+}
+
+.plevydont:hover,
+.llevydont:hover {
+    background-color: rgb(238, 238, 238);
+}
+
+.plevydont img,
+.llevydont img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: linear .1s;
+}
+
+.plevydont a,
+.llevydont a {
+    color: black;
+    line-height: 1.3;
+}
+
+.dolnidont p.lulky {
+    padding-top: 5px
+}
+
+.plevydont h4,
+.llevydont h4 {
+    padding-top: 10px;
+}
+
+.plevydont a h4,
+.plevydont p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.llevydont a h4,
+.llevydont p {
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+.llevydont a {
+    color: black;
+}
+.dolnidont {
+    display: flex
+}
+.ughnechcu {
+    border-radius: 5px;
+    background-color: #fff;
+    width: 262px;
+    height: 60px;
+    margin-bottom: 10px;
+    padding: 5px 20px 0 20px
+}
+.ughnechcu a {
+    color:black;
 }
