@@ -276,9 +276,16 @@ p.pokracujnoobe {
 .celastranecka {
     padding-top: 70px;
     display: flex;
-    background-color: #f3f3f3
+    background-color: #3b3b3b
 }
-
+.levastranecka {
+    padding-left: 110px;
+    margin-right: 0
+}
+.pravastranecka {
+    padding-right: 200px;
+    margin-left: 70px
+}
 .dontmiss-header {
     display: flex;
     justify-content: space-between;
@@ -533,8 +540,20 @@ p.lulky i.fa-circle {
     width: 262px;
     height: 60px;
     margin-bottom: 10px;
-    padding: 5px 20px 0 20px
+    padding: 10px 20px 0 20px;
+}
+.ughnechcu a {
+    transition: linear .1s;
+}
+.ughnechcu a:hover {
+    color: #8d8d8d
 }
 .ughnechcu a {
     color:black;
+}
+.pravydolnidont {
+    margin-top: 10px;
+}
+.ughnechcu p {
+    font-weight: 400
 }
