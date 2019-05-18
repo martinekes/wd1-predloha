@@ -298,8 +298,8 @@ p.pokracujnoobe {
 
 .leftdontmiss {
     display: flex;
-    margin-right: 100px;
-    margin-left: 0
+    margin-right: 0;
+    margin-left: 60px;
 }
 
 .leftdontmiss .jujky {
@@ -370,14 +370,17 @@ a.more {
     display: flex;
     margin-top: 45px;
 }
-
+.pravydont {
+    margin-left: 0
+}
 .levydont {
     width: 555px;
     height: 326px;
     background-color: #fff;
     border-radius: 8px;
     margin-top: 10px;
-    transition: linear .1s
+    margin-right: 0;
+    transition: linear .1s;
 }
 
 .levydont a img {
@@ -435,7 +438,12 @@ p.lulky i.fa-circle {
     padding-right: 20px;
     transition: linear .1s
 }
-
+.pravydolnidont {
+    margin-left: 0
+}
+.levydolnidont {
+    margin-right: 15px;
+}
 .pravydont a {
     line-height: 1.4;
     transition: linear .1s
@@ -565,17 +573,20 @@ p.lulky i.fa-circle {
 .trendy-header {
     display: flex;
 }
+.trendyclanecky {
+    padding-top: 50px
+}
 .lefttrendy {
     display: flex;
-    margin-right: 100px;
-    margin-left: 0
+    margin-right: 0;
+    margin-left: 70px
+}
+.jejky {
+    margin-left: 10px;
+    margin-right: 0
 }
 .jujky {
-    border-bottom: solid black 2px
-}
-
-.jejky {
-    margin-left: 10px
+    border-bottom: solid 2px black;
 }
 .righttrendy {
     display: flex;
@@ -600,4 +611,25 @@ a.xd:hover {
     background: url(../img/post_8.jpg);
     width: 555px;
     height: 154px;
+    padding: 20px 20px 0 20px;
+    border-radius: 8px;
+}
+.nahoret h3 {
+    color: white
+}
+.nahoret  p {
+    color: #a0a0a0;
+    padding-top: 60px;
+}
+.uprostredt {
+    width: 555px;
+    height: 240px;
+    background-color: #fff
+}
+.uprostredt a {
+    color: black
+}
+.uprostredt img {
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px
 }
