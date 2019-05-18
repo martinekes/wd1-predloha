@@ -559,3 +559,45 @@ p.lulky i.fa-circle {
 .ughnechcu p {
     font-weight: 400
 }
+.trendy {
+    padding-top: 50px;
+}
+.trendy-header {
+    display: flex;
+}
+.lefttrendy {
+    display: flex;
+    margin-right: 100px;
+    margin-left: 0
+}
+.jujky {
+    border-bottom: solid black 2px
+}
+
+.jejky {
+    margin-left: 10px
+}
+.righttrendy {
+    display: flex;
+}
+.righttrendy a {
+    border-radius: 14px;
+    color: #797979;
+    margin: 0 5px 0 5px;
+    font-size: .9rem;
+    height: 25px;
+    text-align: center;
+    padding-top: 5px;
+    transition: linear .1s;
+}
+a.xd {
+    background-color: rgb(212, 212, 212);
+}
+a.xd:hover {
+    background-color: rgb(233, 233, 233);
+}
+.nahoret {
+    background: url(../img/post_8.jpg);
+    width: 555px;
+    height: 154px;
+}
