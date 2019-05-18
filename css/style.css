@@ -298,8 +298,8 @@ p.pokracujnoobe {
 
 .leftdontmiss {
     display: flex;
-    margin-right: 0;
-    margin-left: 60px;
+    margin-right: 140px;
+    margin-left: 0;
 }
 
 .leftdontmiss .jujky {
@@ -574,12 +574,13 @@ p.lulky i.fa-circle {
     display: flex;
 }
 .trendyclanecky {
-    padding-top: 50px
+    padding-top: 50px;
+    display: flex;
 }
 .lefttrendy {
     display: flex;
-    margin-right: 0;
-    margin-left: 60px
+    margin-right: 90px;
+    margin-left: 10px;
 }
 .jejky {
     margin-left: 10px
@@ -614,8 +615,12 @@ a.xd:hover {
     padding: 20px 20px 0 20px;
     border-radius: 8px;
 }
-.nahoret h3 {
+.nahoret a {
+    transition: linear .1s;
     color: white
+}
+.nahoret a:hover {
+    color: #8d8d8d;
 }
 .nahoret  p {
     color: #a0a0a0;
@@ -626,7 +631,17 @@ a.xd:hover {
     height: 240px;
     background-color: #fff;
     border-radius: 8px;
-    margin-top: 10px
+    margin-top: 10px;
+    transition: linear.1s;
+}
+.uprostredt:hover {
+    background-color: rgb(233, 233, 233);
+}
+.uprostredt a {
+    transition: linear.1s;
+}
+.uprostredt a:hover {
+    filter: brightness(.50);
 }
 .uprostredt a h3 {
     color: black;
@@ -641,28 +656,75 @@ a.xd:hover {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
-.dolet {
+.dolet{
     display: flex;
     width: 580px;
-    margin-top: 10px
+    margin-top: 10px;
+}
+.dolet a {
+    transition: linear .1s;
+    color: black
+}
+.dolet a:hover {
+    color: #8d8d8d
 }
 .doletvlevo, .doletvpravo {
     background-color: #fff;
     width: 262px;
+    height: 59px;
     border-radius: 5px;
     padding: 10px 10px 10px 20px
-}
-
-.dolet a p {
-    color: black;
 }
 .pravetrendy {
     width: 262px
 }
 .pravotna {
     height: 324px ;
+    background-color: #fff;
+    border-radius: 6px;
+    transition: linear .1s;
+}
+.pravotna:hover {
+    background-color: rgb(233, 233, 233);
+}
+.pravotna a {
+    transition: linear .1s;
+}
+.pravotna a:hover {
+    filter: brightness(.50)
+}
+.pravotna h3 {
+    color: black;
+    padding: 10px 10px 0 10px
+}
+.pravotna p {
+    color: #8d8d8d;
+    padding: 35px 10px 0 10px;
 }
 .pravotna img {
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
+}
+.pravotdona {
+    background: url(../img/post_6.jpg);
+    background-size: contain;
+    height: 59px;
+    border-radius: 5px;
+    margin-top: 22px;
+}
+.pravotdodo {
+    background: url(../img/post_7.jpg);
+    background-size: contain;
+    height: 59px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.pejsek {
+    padding: 10px 10px 0 10px;
+}
+.pejsek a {
+    transition: linear .1s;
+}
+.pejsek a:hover {
+    color: #8d8d8d
 }
