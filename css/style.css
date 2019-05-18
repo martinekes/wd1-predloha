@@ -579,11 +579,10 @@ p.lulky i.fa-circle {
 .lefttrendy {
     display: flex;
     margin-right: 0;
-    margin-left: 70px
+    margin-left: 60px
 }
 .jejky {
-    margin-left: 10px;
-    margin-right: 0
+    margin-left: 10px
 }
 .jujky {
     border-bottom: solid 2px black;
@@ -609,6 +608,7 @@ a.xd:hover {
 }
 .nahoret {
     background: url(../img/post_8.jpg);
+    background-size: contain; 
     width: 555px;
     height: 154px;
     padding: 20px 20px 0 20px;
@@ -624,12 +624,45 @@ a.xd:hover {
 .uprostredt {
     width: 555px;
     height: 240px;
-    background-color: #fff
+    background-color: #fff;
+    border-radius: 8px;
+    margin-top: 10px
 }
-.uprostredt a {
-    color: black
+.uprostredt a h3 {
+    color: black;
 }
-.uprostredt img {
+.uprostredt a h3, .uprostredt a p {
+    padding: 20px 20px 0 20px
+}
+.uprostredt a p { 
+    color: #8d8d8d
+}
+.uprostredt a img {
+    border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    border-top-left-radius: 8px
+}
+.dolet {
+    display: flex;
+    width: 580px;
+    margin-top: 10px
+}
+.doletvlevo, .doletvpravo {
+    background-color: #fff;
+    width: 262px;
+    border-radius: 5px;
+    padding: 10px 10px 10px 20px
+}
+
+.dolet a p {
+    color: black;
+}
+.pravetrendy {
+    width: 262px
+}
+.pravotna {
+    height: 324px ;
+}
+.pravotna img {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
 }
