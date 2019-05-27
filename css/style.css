@@ -728,4 +728,13 @@ a.xd:hover {
 .pejsek a:hover {
     color: #8d8d8d
 }
-
+.video-header {
+    display: flex;
+    width: 200px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    margin: 0
+}
+.video-header h3.jejky, .jojky {
+    margin-left: 0;
+}
