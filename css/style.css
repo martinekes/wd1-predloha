@@ -576,10 +576,14 @@ p.lulky i.fa-circle {
 .trendyclanecky {
     padding-top: 50px;
     display: flex;
+    position: relative;
+    left: 5%;
+    margin-left: 0;
+    margin-right: 100px
 }
 .lefttrendy {
     display: flex;
-    margin-right: 90px;
+    margin-right: 100px;
     margin-left: 10px;
 }
 .jejky {
@@ -728,6 +732,10 @@ a.xd:hover {
 .pejsek a:hover {
     color: #8d8d8d
 }
+.videovideo {
+    display: flex;
+    padding-left: 50px
+}
 .video-header {
     display: flex;
     width: 200px;
@@ -737,4 +745,47 @@ a.xd:hover {
 }
 .video-header h3.jejky, .jojky {
     margin-left: 0;
+}
+.pes {
+    padding: 10px 0 10px 0;
+}
+
+.prvnividejko a {
+    padding-top: 25px;
+}
+.prvnividejko img {
+    border: solid 3px #2DDF80;
+    padding: 6px
+}
+.pes a{
+    display: flex;
+    position: relative;
+    right: 60px;
+}
+.pes img {
+    border-radius: 50%
+}
+.pes  {
+    filter: brightness(50%);
+    transition: linear .08s;
+}
+.prvnividejko {
+    filter: brightness(100%)
+}
+.pes:hover {
+    filter: brightness(100%);
+}
+.lolkz {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start
+}
+.dalsividejka {
+    background-color: #1E1E1E;
+    background-position-x: -10000px;
+    height: 388px;
+    margin-top: 12px;
+    
 }
