@@ -699,11 +699,11 @@ a.xd:hover {
 }
 .pravotna h3 {
     color: black;
-    padding: 10px 10px 0 10px
+    padding: 15px 10px 0 10px
 }
 .pravotna p {
     color: #8d8d8d;
-    padding: 35px 10px 0 10px;
+    padding: 30px 10px 0 10px;
 }
 .pravotna img {
     border-top-left-radius: 6px;
@@ -734,13 +734,17 @@ a.xd:hover {
 }
 .videovideo {
     display: flex;
-    padding-left: 50px
+   
+}
+video {
+    padding-left: 0;
+    outline: none
 }
 .video-header {
     display: flex;
     width: 200px;
     padding-top: 50px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     margin: 0
 }
 .video-header h3.jejky, .jojky {
@@ -751,7 +755,7 @@ a.xd:hover {
 }
 
 .prvnividejko a {
-    padding-top: 25px;
+    padding-top: 10px;
 }
 .prvnividejko img {
     border: solid 3px #2DDF80;
@@ -768,6 +772,7 @@ a.xd:hover {
 .pes  {
     filter: brightness(50%);
     transition: linear .08s;
+    width: 270px
 }
 .prvnividejko {
     filter: brightness(100%)
@@ -783,9 +788,112 @@ a.xd:hover {
     text-align: start
 }
 .dalsividejka {
-    background-color: #1E1E1E;
-    background-position-x: -10000px;
     height: 388px;
     margin-top: 12px;
-    
+    width: 200px;
+    background-color: #1E1E1E;
+    margin-left: -41px
+}
+.lolkz h4, .lolkz p {
+    font-size: 14px;
+    text-align: start;
+    margin-left: 0;
+    margin-right: 20px
+}
+.latest-header {
+    display: flex;
+    width: 130px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    margin: 0
+}
+.latestclanecky .suprcuprsloupecky .leftsl {
+    width: 262px
+}
+.leftsl-first {
+    background-color: #fff;
+    transition: linear .1s
+}
+.leftsl-first h3 {
+    color: black;
+}
+.leftsl-first p {
+    color: #797979
+}
+.leftsl-first img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.leftsl-first {
+    border-radius: 8px;
+    height: 324px;
+}
+.leftsl-first h3  {
+    padding: 15px 10px 0 10px;
+}
+.leftsl-first p {
+    padding: 30px 10px 0 10px;
+}
+.leftsl-first a {
+    transition: linear.1s
+}
+.leftsl-first a:hover {
+    filter: brightness(50%)
+}
+.leftsl-first:hover {
+    background-color: rgb(233, 233, 233);
+}
+.leftsl-second {
+    background-image: url(../img/post_11.jpg);
+    background-size: cover;
+    border-radius: 8px;
+    margin-top: 10px; 
+    height: 154px; 
+}
+.leftsl-second a h4 {
+    padding: 15px 20px 0 20px;
+    line-height: 23px;
+}
+.leftsl-second a p {
+    padding: 10px 20px 0 20px;
+}
+.leftsl-second a {
+    transition: linear .1s;
+}
+.leftsl-second a:hover {
+    color: #a0a0a0;
+}
+.leftsl-third {
+    background-color: #fff;
+    border-radius: 8px;
+    margin-top: 10px; 
+    height: 154px; 
+}
+.leftsl-third a {
+    color: black;
+    transition: linear .1s;
+}
+.leftsl-third a h4 {
+    padding: 15px 20px 0 20px;
+    line-height: 23px;
+}
+.leftsl-third a p {
+    padding: 10px 20px 0 20px;
+}
+.leftsl-third a:hover {
+    color: #797979;
+}
+.leftsl-fourth {
+    background-image: url(../img/post_12.jpg);
+    background-size: cover;
+    height: 59px;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px 10px 0 10px;
+}
+.leftsl-fourth a {
+    transition: linear .1s;
+}
+.leftsl-fourth a:hover {
+    color: #8d8d8d
 }
