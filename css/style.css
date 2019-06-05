@@ -807,8 +807,11 @@ video {
     padding-bottom: 40px;
     margin: 0
 }
-.latestclanecky .suprcuprsloupecky .leftsl {
+.latestclanecky .suprcuprsloupecky .leftsl, .middlesl, .rightsl {
     width: 262px
+}
+.suprcuprsloupecky {
+    width: 849px;
 }
 .leftsl-first {
     background-color: #fff;
@@ -896,4 +899,46 @@ video {
 }
 .leftsl-fourth a:hover {
     color: #8d8d8d
+}
+.suprcuprsloupecky {
+    display: flex
+}
+.middlesl-first {
+    margin-top: 0
+}
+.middlesl-second {
+    height: 229px;
+    margin-top: 10px;
+}
+.middlesl-third {
+    margin-top: 10px;
+    height: 317px;
+}
+.middlesl-second p {
+    padding-top: 15px;
+}
+.rightsl-second {
+    margin-top: 10px;
+    height: 318px;
+}
+.rightsl-third {
+    background: url(../img/post_6.jpg) no-repeat;
+    background-size: cover;
+}
+.button {
+    background-color: #F7F7F7;
+    margin-top: 80px;
+    width: 120px;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 14px;
+    height: 30px;
+    transition: linear .1s
+}
+.button p {
+    text-align: center;
+    padding-top: 5px;
+    color: black;
+}
+.button:hover {
+    background-color: rgb(197, 197, 197);
 }
