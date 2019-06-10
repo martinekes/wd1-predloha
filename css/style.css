@@ -274,17 +274,20 @@ p.pokracujnoobe {
 /**** Tady končí home slider :))))))))))))*****/
 /**** Tady končí home slider :))))))))))))*****/
 .celastranecka {
-    padding-top: 70px;
     display: flex;
-    background-color: #3b3b3b
+    background-color: #F6F6F6;
+    margin-left: 160px
 }
 .levastranecka {
     padding-left: 110px;
+    padding-top: 70px;
     margin-right: 0
 }
 .pravastranecka {
     padding-right: 200px;
-    margin-left: 70px
+    padding-top: 70px;
+    margin-right: 231px;
+    width: 375px
 }
 .dontmiss-header {
     display: flex;
@@ -941,4 +944,31 @@ video {
 }
 .button:hover {
     background-color: rgb(197, 197, 197);
+}
+.dots2 {
+    display: flex
+}
+.topstories-header {
+    display: flex;
+
+}
+.dots2 {
+    position: relative;
+    left: 100px
+}
+.pravastranecka {
+    background-color: #ECECEC;
+    
+}
+.dots3 {
+    padding: 0 5px 0 5px;
+}
+.dots3 a {
+    color: black
+}
+.lul {
+    padding-left: 10px;
+}
+.hngh {
+    padding-right: 10px
 }
