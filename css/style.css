@@ -950,25 +950,239 @@ video {
 }
 .topstories-header {
     display: flex;
-
+}
+.faktnevimlol {
+    position: relative;
+    left: 20px
 }
 .dots2 {
     position: relative;
-    left: 100px
+    left: 100px;
+}
+.dots2 a {
+    color: #797979;
+    transition: linear .1s;
+}
+.dots2 a:hover {
+    color: black
 }
 .pravastranecka {
     background-color: #ECECEC;
-    
-}
-.dots3 {
-    padding: 0 5px 0 5px;
-}
-.dots3 a {
-    color: black
 }
 .lul {
     padding-left: 10px;
 }
+a i.lul  {
+    color: black
+}
 .hngh {
-    padding-right: 10px
+    padding-right: 10px;
+}
+.tedtystories {
+    padding-top: 50px;
+    padding-left: 10px;
+}
+.prvnistory a {
+    display: flex;
+    width: 300px;
+    color: black;
+    transition: linear .1s;
+    padding: 10px;
+}
+.prvnistory a:hover {
+    color: #797979
+}
+.prvnistory img {
+    border-radius: 5px
+}
+.neee {
+    padding-left: 10px
+}
+.nejakejrapper {
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 240px;
+    height: 339px;
+    background: url(../img/post_17.jpg);
+    background-size: cover;
+    padding: 220px 50px 0 10px
+}
+.nejakejrapper a {
+    color: white;
+    transition: linear.1s;
+    padding: 500px 10px 0 10px
+}
+.nejakejrapper a:hover {
+    color: #797979
+}
+.faktneee h3 {
+    width: 1000px;
+}
+.dots4 {
+    position: relative;
+    right: 500px
+}
+.newest-header {
+    display: flex
+}
+.prvnivideo a {
+    display: flex;
+    width: 300px;
+    color: black;
+    transition: linear .1s;
+    padding: 10px;
+}
+.prvnivideo a:hover {
+    color: #797979
+}
+.prvnivideo img {
+    border-radius: 50%;
+}
+.tedtyvidea {
+    padding-top: 50px;
+    padding-left: 10px;
+}
+.newestvideos {
+    padding-top: 50px;
+    width: 240px
+}
+.suprvlak {
+    height: 139px;
+    width: 232px;
+    background: url(../img/post_18.jpg);
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.suprvlak p {
+    font-size: 20px;    
+}
+.suprvlak a {
+    color: white;
+    transition: linear .1s;
+}
+.suprvlak a:hover {
+    color: #949494;
+}
+.datumy-header {
+    width: 200px;
+    margin-top: 50px;
+}
+.brekeke {
+    display: flex;
+    flex-direction: column;
+}
+.brekeke h1, .brekeke h2 {
+    color: #797979
+}
+.brekeke h2 {
+    margin-top: 0;
+    padding-top: 0;
+}
+.tedtydatumy {
+    margin-top: 50px;
+    margin-left: 20px
+}
+.prorok .neee {
+    padding-top: 7px;
+}
+footer {
+    background-color: #1E1E1E;
+    text-align: center;
+    
+    display: flex
+}
+.fooicons {
+    padding-top: 30px
+}
+.fooicons a {
+    padding: 10px
+}
+footer h1, footer a, footer p{
+    color:white;
+}
+footer h1 {
+    font-size: 20px
+}
+.copyright {
+    padding-top: 30px
+}
+.copyright p {
+    font-size: 10px;
+}
+.nechuu {
+    padding-top: 50px;
+    padding-left: 25%
+}
+.takynechcu h2 {
+    color: white
+}
+.takynechcu {
+    background-color: #101010;
+    width: 375px;
+    margin-left: 140px;
+    padding-top: 50px
+}
+.for-line input, button {
+    background-color: #101010;
+    border: none;
+    color: white
+}
+footer form {
+    display: flex;
+    padding-top: 20px;
+    border-bottom: 1px white solid;
+    width: 200px
+}
+form button {
+    position: relative;
+    bottom: 10px;
+    left: 90px
+}
+/***CONTACT**/
+.contact-slider {
+    padding-top: 17%;
+    background-image: url(../img/contact.jpg);
+    background-size: cover;
+    width: 100%;
+    color: white;
+    height: 1150px;
+    display: flex;
+}
+.contact-slider form {
+    width: 602px;
+    background-color: #fff;
+    height: 400px;
+    border-radius: 14px
+}
+.contact-slider input, .contact-slider textarea {
+    border: none;
+    border-bottom: #1E1E1E 1px solid;
+    padding: 10px;
+}
+.contact-slider ::placeholder {
+    color: black
+}
+.contact-slider button {
+    margin-top: 50px;
+    padding: 15px;
+    transition: linear .1s;
+    background-color: #fff;
+    color: black;
+    border-radius: 28px;
+    margin-left: 25%
+}
+.contact-slider button:hover {
+    background-color: #31ffa9;
+}
+.nameandmail input {
+    width: 299px;
+    height: 50px;
+    margin-top: 50px
+}
+.nameandmail {
+    padding-bottom: 20px
 }
